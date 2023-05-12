@@ -1,0 +1,188 @@
+@charset "UTF-8";
+
+/* começo animaçao da home */
+.barrinha-home {
+  animation: carregando-home 3s;
+}
+
+@keyframes carregando-home {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+/* fim animaçao home */
+
+/* começo animaçao skills */
+.barrinha-skills {
+  animation: carregando-skills 1s;
+}
+
+@keyframes carregando-skills {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.sub1 , .sub2 {
+  animation: subts 1.5s;
+}
+
+@keyframes subts {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+.item1 {
+  animation: item1-opaci 2s;
+}
+
+@keyframes item1-opaci {
+  0% {
+    opacity: 0%;
+  }
+  10% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+.item2 {
+  animation: item2-opaci 2.2s;
+}
+
+@keyframes item2-opaci {
+  0% {
+    opacity: 0%;
+  }
+  20% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+.item3 {
+  animation: item3-opaci 2.3s;
+}
+
+@keyframes item3-opaci {
+  0% {
+    opacity: 0%;
+  }
+  30% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+.item4 {
+  animation: item4-opaci 2.4s;
+}
+
+@keyframes item4-opaci {
+  0% {
+    opacity: 0%;
+  }
+  40% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+.item5 {
+  animation: item5-opaci 2.5s;
+}
+
+@keyframes item5-opaci {
+  0% {
+    opacity: 0%;
+  }
+  50% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+/* fim animaçao skills */
+
+/* começo animaçao projetos */
+.barrinha-projetos {
+  animation: carregando-projetos 2s;
+}
+
+@keyframes carregando-projetos {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.card1 {
+  animation: card1-opaci 1.5s; 
+}
+
+@keyframes  card1-opaci {
+  0% {
+    opacity: 0%;
+  }
+  10% {
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}
+
+.card2 {
+  animation: card2-opaci 1.8s;
+}
+
+@keyframes card2-opaci {
+  0% {
+    opacity: 0%;
+  }
+
+  20% {
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}
+/* fim animaçao projetos */
+
+/* inicio animaçao contato */
+.barrinha-contato {
+  animation: carregando-home 1s;
+}
+
+@keyframes carregando-home {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+/* fim animacao contato */

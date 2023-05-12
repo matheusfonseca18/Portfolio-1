@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+p {
+  text-indent: 1rem;
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.about h2 {
+  margin: 0.2rem 0 1rem 0;
+  font-size: 1.5rem;
+  color: gray;
+  font-weight: normal;
+}
+
+.ativo-home {
+  border-bottom: solid 0.4rem rgb(159, 255, 255);
+  color: #9fffff;
+}
+
+.eu {
+  border-radius: 15rem;
+  border: solid 0.3rem hsla(0, 0%, 79%, 0.3);
+  transition: 0.3s;
+}
+
+.eu:hover {
+  scale: 1.03;
+  border: solid 0.3rem aqua;
+}
+
+.container1 {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.about {
+  width: 28rem;
+}
+
+.barrinha-home {
+  width: 28rem;
+  height: 0.4rem;
+  background-color: #00ffff;
+}
