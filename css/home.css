@@ -1,11 +1,17 @@
 @charset "UTF-8";
 
-p {
+.ativo-home {
+  border-bottom: solid 0.4rem rgb(159, 255, 255);
+  color: #9fffff;
+}
+
+
+.p1 {
   text-indent: 1rem;
   font-size: 1rem;
 }
 
-h1 {
+.home {
   font-size: 3rem;
   text-transform: uppercase;
 }
@@ -15,11 +21,6 @@ h1 {
   font-size: 1.5rem;
   color: gray;
   font-weight: normal;
-}
-
-.ativo-home {
-  border-bottom: solid 0.4rem rgb(159, 255, 255);
-  color: #9fffff;
 }
 
 .eu {
@@ -33,7 +34,7 @@ h1 {
   border: solid 0.3rem aqua;
 }
 
-.container1 {
+#container1 {
   height: 100vh;
   display: flex;
   align-items: center;
@@ -48,4 +49,41 @@ h1 {
   width: 28rem;
   height: 0.4rem;
   background-color: #00ffff;
+}
+
+@media screen and (max-width: 768px) {
+
+  #container1 {
+      flex-direction: column;
+      padding: 5rem 0;
+      margin-bottom: 10rem;
+    }
+
+    .ativo-home {
+      border-bottom: none;
+    }
+    
+    .home {
+      text-transform: uppercase;
+      text-align: center;
+    }
+  
+    .about {
+      min-width: 18rem;
+      max-width: 22rem;
+      display: list-item;
+      list-style: none;
+    }
+  
+    .eu {
+      max-width: 18rem;
+      margin-top: 5rem;
+    }
+  
+    .barrinha-home {
+      margin: 0 5rem;
+      max-width: 60%;
+      margin-bottom: 1rem;
+    }
+
 }

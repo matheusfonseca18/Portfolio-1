@@ -5,7 +5,8 @@
   color: #9fffff;
 }
 
-.container1 {
+
+#container4 {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   grid-template-rows: repeat(10, 7rem);
@@ -20,20 +21,21 @@
 }
 
 .barrinha-contato {
-  width: 7,5rem;
+  width: 7, 5rem;
   height: 0.4rem;
   background-color: #00ffff;
 }
+
 .contato {
   height: 25rem;
   width: 20rem;
   grid-column: 3 / 6;
   grid-row: 3 / 6;
   background-color: rgb(39, 0, 71);
-  display: flex; 
-  justify-content: space-evenly; 
-  align-items: center; 
-  flex-direction: column; 
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
   box-shadow: 0 0 1rem rgba(0, 0, 0, 40%);
 }
 
@@ -59,8 +61,9 @@
   text-align: center;
 }
 
-
-.form input, .form textarea, .form button {
+.form input,
+.form textarea,
+.form button {
   display: block;
   margin-bottom: 1rem;
   width: 16rem;
@@ -69,7 +72,8 @@
   color: black;
 }
 
-.form textarea:focus, input:focus {
+.form textarea:focus,
+input:focus {
   border: solid 0.3rem aqua;
 }
 
@@ -87,4 +91,16 @@
 .form button:hover {
   background-color: rgb(0, 0, 56);
   transform: scale(1.08);
+}
+
+@media screen and (max-width: 768px) {
+
+  #container4 {
+    height: 50rem;
+  }
+
+  .ativo-contato {
+    border-bottom: none;
+  }
+
 }

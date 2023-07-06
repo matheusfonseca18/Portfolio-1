@@ -19,25 +19,39 @@
     <header>
       <nav>
         <div class="navegation">
-          <a href="index.html"><div class="linkshome ativo-home">Home</div></a>
-          <a href="skills.html"><div class="linkshome">Skills</div></a>
-          <a href="projetos.html"><div class="linkshome">Projetos</div></a>
-          <a href="contato.html"><div class="linkshome">Contato</div></a>
+          <div class="menu-toggle">&#9776;</div>
+          <ul class="menu">
+            <li>
+              <a href="index.html"><div class="linkshome ativo-home">Home</div></a>
+            </li>
+            <li>
+              <a href="skills.html"
+                ><div class="linkshome">Skills</div></a
+              >
+            </li>
+            <li>
+              <a href="projetos.html"><div class="linkshome">Projetos</div></a>
+            </li>
+            <li>
+              <a href="contato.html"><div class="linkshome">Contato</div></a>
+            </li>
+          </ul>
         </div>
       </nav>
     </header>
 
+
     <main>
-      <div class="container1">
+      <div id="container1">
         <a href="arquivos/curriculoTI.pdf" download><img src="img/Fotos/eulogo.jpg" alt="Foto Matheus Fonseca" class="eu"/></a>
         <div class="about">
-          <h1>Matheus Fonseca</h1>
+          <h1 class="home">Matheus Fonseca</h1>
           <div class="barrinha-home"></div>
           <h2>Desenvolvedor Front-End</h2>
-          <p>
+          <p class="pq">
             Seja bem-vindo! Tenho 23 anos, sou formado eu Produção Audiovisual, e estou sempre buscando aprender mais. Atualmente curso Desenvolvimento Web no iOS - Instituto da Oportunidade Social.
             Continue para conhecer um pouco mais sobre mim, minhas habilidades e veja meus projetos!</p>
-            <p>Clique na minha foto para visualizar meu curriculo completo em PDF.</p>
+            <p class="p1">Clique na minha foto para visualizar meu curriculo completo em PDF.</p>
 
         </div>
       </div>
@@ -82,5 +96,7 @@
         </ul>
       </div>
     </footer>
+
+    <script src="script/main.js"></script>
   </body>
 </html>
