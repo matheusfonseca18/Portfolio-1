@@ -17,27 +17,52 @@
   </head>
   <body>
     <header>
-      <nav>
-        <div class="navegation">
-          <div class="menu-toggle">&#9776;</div>
-          <ul class="menu">
-            <li>
-              <a href="index.html"><div class="linkshome ativo-home">Home</div></a>
+      <nav class="nav-bar">
+
+        <div class="nav-list">
+          <ul>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"><div class="linkshome ativo-home">Home</div></a>
             </li>
-            <li>
-              <a href="skills.html"
-                ><div class="linkshome">Skills</div></a
+            <li class="nav-item">
+              <a class="nav-link" href="skills.html"><div class="linkshome">Skills</div></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projetos.html"
+                ><div class="linkshome">Projetos</div></a
               >
             </li>
-            <li>
-              <a href="projetos.html"><div class="linkshome">Projetos</div></a>
-            </li>
-            <li>
-              <a href="contato.html"><div class="linkshome">Contato</div></a>
+            <li class="nav-item">
+              <a class="nav-link" href="contato.html"><div class="linkshome">Contato</div></a>
             </li>
           </ul>
         </div>
+
+        <div class="mobile-menu-icon" onclick="menuShow()">
+          <button ><img src="img/icones/menu.png" alt="" class="menu-icon"></button>
+        </div>
+
       </nav>
+      
+      <div class="mobile-menu">
+        <ul>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"><div class="linkshome ativo-home">Home</div></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="skills.html"><div class="linkshome">Skills</div></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projetos.html"
+              ><div class="linkshome">Projetos</div></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contato.html"><div class="linkshome">Contato</div></a>
+          </li>
+        </ul>
+      </div>
+
     </header>
 
 

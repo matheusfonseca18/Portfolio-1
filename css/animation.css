@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
-/* começo animaçao da home */
+/* animaçao da home */
+
 .barrinha-home {
   animation: carregando-home 3s;
 }
@@ -13,9 +14,9 @@
     width: 100%;
   }
 }
-/* fim animaçao home */
 
-/* começo animaçao skills */
+/* animaçao skills */
+
 .barrinha-skills {
   animation: carregando-skills 1s;
 }
@@ -120,9 +121,9 @@
     opacity: 100%;
   }
 }
-/* fim animaçao skills */
 
-/* começo animaçao projetos */
+/* animaçao projetos */
+
 .barrinha-projetos {
   animation: carregando-projetos 2s;
 }
@@ -170,9 +171,9 @@
     opacity: 100%;
   }
 }
-/* fim animaçao projetos */
 
-/* inicio animaçao contato */
+/* animaçao contato */
+
 .barrinha-contato {
   animation: carregando-home 1s;
 }
@@ -185,4 +186,3 @@
     width: 100%;
   }
 }
-/* fim animacao contato */
